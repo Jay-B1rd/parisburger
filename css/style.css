@@ -1,0 +1,63 @@
+:root {
+    --orange: #f1a536;
+    --gray: #f1a536
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--orange);
+    padding: 0 80px;
+}
+
+.hlink {
+    margin-left: 20px;
+}
+
+.bimg {
+    width: 100%
+}
+/* NAVIGATION BAR */
+
+/* SETTING FONTS */
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bannerimg {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navbar, .footer {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* SETTING FONTS */

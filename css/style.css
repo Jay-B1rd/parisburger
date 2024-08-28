@@ -29,7 +29,7 @@ body {
 /* SETTING FONTS */
 body {
     font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -48,7 +48,7 @@ h2 {
 
 p {
     font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     font-size: 24px;
 }
@@ -115,4 +115,49 @@ figcaption {
 .healthy {
     background-color: var(--gray);
 }
+
+.healthyimgs {
+    display: flex;
+    text-align: center;
+}
+
+.hlimg {
+    width: 100%;
+    margin: 0;
+}
+
+.hlfig {
+    background-color: white;
+    margin: 0;
+    position: relative;
+    bottom: 5px;
+    padding: 5px 2px;
+}
 /* HEALTHY RECIPES */
+
+/* WHERE TO EAT */
+.whereimgs {
+    display: flex;
+    text-align: center;
+}
+
+.wimg {
+    width: 100%;
+    background-color: var(--gray);
+    padding: 3px;
+}
+/* WHERE TO EAT */
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--orange);
+    padding: 40px 80px;
+}
+
+.flink {
+    margin-left: 20px;
+}
+/* FOOTER */
